@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Reis">
+    <meta name="description" content="WDD231 W01 Assignment">
+    <title>WDD231 - João Henrique Gomes dos Reis</title>
+    <link rel="stylesheet" href="styles/styles-desktop.css">
+    <link rel="stylesheet" href="styles/styles-mobile.css">
+    <script src="scripts/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <img src="images/my-pic.jpg" alt="My Picture">
+            <h1>João Henrique Gomes dos Reis</h1>
+            <button id="hamburger-menu" aria-label="Menu">
+                &#9776;
+            </button>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="https://github.com/jh-gomesdosreis/wdd231" target="_blank">Github Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/jo%C3%A3o-henrique-gomes-dos-reis/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="course-work-card">
+            <div class="card-title"><h1>Course Work</h1></div>
+            <div class=card-body>
+                <ul>
+                    <li>#</li>
+                    <li>#</li>
+                    <li>#</li>
+                </ul>
+            </div>
+        </section>
+        <section class="location-card">
+            <div class="card-title"><h1>Bahia, Brazil</h1></div>
+            <div class="card-body">
+                <img src="images/mandacaru.webp" alt="Bahia Biome">
+                <figcaption>Mandacaru, a symbol of caatinga, a biome in Brazil</figcaption>
+            </div>
+        </section>
+        <section class="course-list-card">
+            <div class="card-title"><h1>Web and Computer Programming Certificate</h1></div>
+            <div class="card-body">
+                <div class="filter-area">
+                    <button type="button">All</button>
+                    <button type="button">CSE</button>
+                    <button type="button">WDD</button>
+                </div>
+                <div class="courses-area"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2025 <span class="star">&#8902;</span> João Henrique Gomes dos Reis <span class="star">&#8902;</span> Brazil</p>
+        <p>Last Update:<span id="last-updated"></span></p>
+    </footer>
+</body>
+</html>

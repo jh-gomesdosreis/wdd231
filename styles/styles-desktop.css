@@ -1,0 +1,155 @@
+p, li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+h1, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+h1 {
+    font-size: 2rem;
+    color:white;
+}
+
+/*Header section code*/
+.header-section {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #164E70;
+    padding:2rem;
+}
+.header-section img {
+    max-height:150px;
+    filter: drop-shadow(10px 10px 4px black);
+}
+.header-section h1 {
+    color:white;
+    padding-left:3rem;
+    font-size: 3.5rem;
+}
+header nav {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width:80%;
+}
+nav ul li {
+    padding:1rem;
+    font-size: 1.5rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color:yellow;
+    text-decoration:underline;
+}
+#hamburger-menu {
+    display: none;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left:2rem;
+    font-size: 3rem;
+}
+
+/*Body Section Code*/
+main {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top:1rem;
+    column-gap:2rem;
+}
+.course-work-card {
+    grid-column: 1/3;
+    width:100%;
+}
+.location-card {
+    grid-column: 3/4;
+}
+.location-card .card-body img {
+    padding:2rem;
+}
+.course-list-card {
+    grid-column:1/4;
+    margin-top:2rem;
+}
+main section {
+    border-radius: 2rem;
+    overflow:hidden;
+    border:#164E70 1px solid;
+}
+.card-title {
+    background-color: #164E70;
+    padding:1rem;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*Courses Area*/
+.filter-area {
+    display:flex;
+    justify-content: space-between;
+    padding:2rem;
+    margin: 0 25rem 0 25rem;
+}
+
+.filter-area button {
+    padding:1rem;
+    margin:2rem;
+    background-color: black;
+    color:white;
+    width:15rem;
+}
+.filter-area button:hover {
+    color:yellow;
+}
+.courses-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+    border-top:#164E70 2px solid;
+}
+
+.courses-area button {
+    padding:1rem;
+    margin:2rem;
+    width:15rem;
+}
+
+/*Footer Section Code*/
+footer {
+    background-color: #164E70;
+    text-align: center;
+    padding:1rem;
+}
+
+footer p {
+    color:white;
+    font-size: 1.5rem;
+}
+
+.star {
+    color:yellow;
+}

@@ -1,0 +1,39 @@
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: black;
+        width: 100%;
+        top: 100%;
+        left: 0;
+    }
+    .header-section img {
+        max-height:100px;
+    }
+    #hamburger-menu {
+        display: block;
+    } 
+    nav ul.show {
+        display: flex;
+    }
+    .header-section h1 {
+        font-size: 2rem;
+    }
+    .course-work-card {
+        margin-bottom:2rem;
+    }
+    main, .courses-area, .filter-area {
+        display:block;
+        text-align: center;
+    }
+    .filter-area {
+        margin:0 auto;
+        align-items: center;
+    }
+    .card-body img {
+        max-width:300px;
+    }
+
+}
