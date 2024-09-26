@@ -22,4 +22,7 @@
         display:block;
         align-items: center;
     }
+    .social-icons img {
+        max-width: 50px;
+    }
 }

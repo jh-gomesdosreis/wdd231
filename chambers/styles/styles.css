@@ -69,7 +69,7 @@ nav ul li a:hover {
 .hero-section {
     width: 100%;
     min-height: 600px;
-    background-image: url('../images/vitoria-da-conquista-2.jpg');
+    background-image: url('../images/vitoria-da-conquista-2.webp');
     background-size: cover;
     background-position: bottom;
     display: flex;

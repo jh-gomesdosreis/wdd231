@@ -4,7 +4,7 @@
       "address": "Av. Olívia Flores, 1500 - Vitória da Conquista, BA",
       "phone": "+55 77 3421-8922",
       "website": "https://www.technova.com.br",
-      "image": "images/tech-nova-solutions.jpg",
+      "image": "images/tech-nova-solutions.webp",
       "membershipLevel": 3,
       "founded": 2010,
       "industry": "Technology Solutions"
@@ -24,7 +24,7 @@
       "address": "Rod. BA-263, Km 10 - Vitória da Conquista, BA",
       "phone": "+55 77 3422-4455",
       "website": "https://www.verdeenergia.com.br",
-      "image": "images/verde-energia.png",
+      "image": "images/verde-energia.webp",
       "membershipLevel": 1,
       "founded": 2008,
       "industry": "Renewable Energy"
@@ -64,7 +64,7 @@
       "address": "Estrada do Bem Querer, 321 - Vitória da Conquista, BA",
       "phone": "+55 77 3388-9966",
       "website": "https://www.agroforteprodutos.com.br",
-      "image": "images/agro.jpg",
+      "image": "images/agro.webp",
       "membershipLevel": 3,
       "founded": 2005,
       "industry": "Agriculture & Farming"
