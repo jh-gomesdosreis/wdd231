@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="João Reis">
+    <meta name="description" content="WDD231 - Week 2">
+    <meta property="og:title" content="WDD231 W02 Assignment">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="directory.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:description" content="Vitoria da Conquista's Chamber of Commerce">
+    <meta name="twitter:image:alt" content="Vitoria da Conquista's Chamber of Commerce">
+    <title>WDD231 - Week 2 Activity</title>
+    <link rel="icon" href="images/flag.ico">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-mobile.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="directory.html"><img class="logo" alt="Logo" src="images/flag.png"></a>
+            <button id="hamburger-menu" aria-label="Menu"></button>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <h1 class="hero-title">Directory</h1>
+        </section>
+        <section class="main-section">
+            <div class=main-title>
+                <h1>Home</h1>
+                <div>
+                    <button id="view-grid" aria-label="Grid View">Grid View</button>
+                    <button id="view-list" aria-label="List View">List View</button>
+                </div>
+            </div>
+            <div id="company-cards"></div>
+        </section>
+    </main>
+    <footer>
+        <section class="left-footer-section">
+            <p>Vitoria da Conquista Chamber of Commerce</p>
+            <p>464a Av. Ipanema</p>
+            <p>Bahia, Brazil</p>
+            <a href="mailto:jh_gomesdosreis@outlook.com">jh_gomesdosreis@outlook.com</a>
+            <p>+55 (77) 99988-9722</p>
+        </section>
+        <section class="social-icons">
+            <a href="https://facebook.com"><img alt="Facebook" src="images/facebook.png" href=""></a>
+            <a href="https://instagram.com"><img alt="Instagram" src="images/instagram.png" href=""></a>
+            <a href="https://x.com"><img alt="X" src="images/twitter.png" href=""></a>
+        </section>
+        <section class="right-footer-section">
+            <p>WDD 231 - Week 2</p>
+            <p>João Reis</p>
+            <p>&#169; Vitoria da Conquista Chamber of Commerce</p>
+            <p>Last Updated At: <span id="last-updated"></span></p>
+    </footer>
+</body>
+</html>

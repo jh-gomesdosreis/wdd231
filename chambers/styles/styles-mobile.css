@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    #menu {
+        display: block;
+    }
+    ul#menu li {
+        padding:2rem 2vw;
+    }
+
+    #menu {
+        display:none;
+    }
+    #menu.open {
+        display:block;
+    }
+    #hamburger-menu::before {
+        content: "\2630";
+    }
+    #hamburger-menu.open::before {
+        content: "X";
+    }
+    footer {
+        display:block;
+        align-items: center;
+    }
+}

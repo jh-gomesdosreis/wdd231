@@ -1,0 +1,165 @@
+p, li, a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+h1, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+@media (min-width: 769px) {
+    #hamburger-menu {
+        display: none;
+    }
+
+}
+
+/*Header section code*/
+header {
+    background-color: rgb(49, 27, 27);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#hamburger-menu {
+    color: white;
+    border: none;
+    font-size: 3.5rem;
+    cursor: pointer;
+    background:none;
+    text-align: right;
+    padding:.25rem 2vw;
+}
+
+.logo {
+    padding: 2rem;
+    max-width: 100px;
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 600px;
+    background-image: url('../images/vitoria-da-conquista-2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/*Body Section Code*/
+.main-section{
+    padding:2rem;
+}
+
+.main-title {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:1rem;
+}
+.main-title div {
+    display:flex;
+    justify-content:flex-end;
+    gap:2rem;
+}
+.main-title div button {
+    padding:1rem;
+}
+
+
+#company-cards.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#company-cards.list {
+    display: block;
+}
+
+.member-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.member-card img {
+    max-width: 100px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #company-cards.grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*Footer section code*/
+footer {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252162;
+    color: white;
+}
+
+.social-icons img {
+    max-width: 75px;
+    padding: 1rem;
+}
+
+footer a {
+    color: white;
+}
