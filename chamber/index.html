@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="João Reis">
-    <meta name="description" content="WDD231 - Week 2">
-    <meta property="og:title" content="WDD231 W02 Assignment">
+    <meta name="description" content="WDD231 - Week 3">
+    <meta property="og:title" content="WDD231 W03 Assignment">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/vitoria-da-conquista-2.webp">
     <meta property="og:url" content="https://jh-gomesdosreis.github.io/wdd231/chambers/directory.html">
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:description" content="Vitoria da Conquista's Chamber of Commerce">
     <meta name="twitter:image:alt" content="Vitoria da Conquista's Chamber of Commerce">
-    <title>WDD231 - Week 2 Activity</title>
+    <title>WDD231 - Week 3 Activity</title>
     <link rel="icon" href="images/flag.ico">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/styles-mobile.css">
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/w3-activity.js" defer></script>
 </head>
 <body>
     <header>
@@ -26,27 +27,46 @@
             <a href="directory.html"><img class="logo" alt="Logo" src="images/flag.png"></a>
             <button id="hamburger-menu" aria-label="Menu"></button>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li ><a class="active" href="directory.html">Directory</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero-section directory-hero">
-            <h1 class="hero-title">Directory</h1>
+        <section class="hero-section landing-page-hero">
+            <h1 class="hero-title">Chamber of Commerce</h1>
+            <button id="landing-page-cta" type="button" aria-label="Click here to join!">Click here to join!</button>
         </section>
         <section class="main-section">
-            <div class=main-title>
-                <h1>Our Partners</h1>
-                <div>
-                    <button id="view-grid" aria-label="Grid View">Grid View</button>
-                    <button id="view-list" aria-label="List View">List View</button>
+            <div class=main-title></div>
+                <h1>Welcome!</h1>
+            <section class="current-events-section">
+                <div class=main-title></div>
+            </section>
+            <section id="weather-section">
+                <div class="main-card">
+                    <h2>Weather Forecast</h2>
+                    <div class="card">
+                        <h2 id="town"></h2>
+                        <img id="graphic" src="" alt="">
+                        <p id="description"></p>
+                        <p id="temperature"></p>
+                    </div>
                 </div>
-            </div>
-            <div id="company-cards"></div>
-        </section>
+                <div id="forecast">
+                    <h2>3-Day Forecast</h2>
+                    <ul id="forecast-list">
+                    </ul>
+                </div>
+            <section class="company-spotlights-section">
+                <div class="main-title">
+                    <h2>Company Spotlights</h2>
+                </div>
+                <div id="company-spotlights"></div>
+            </section>
+    </section>
     </main>
     <footer>
         <section class="left-footer-section">

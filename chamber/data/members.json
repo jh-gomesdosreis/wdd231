@@ -1,73 +1,72 @@
 [
-    {
-      "name": "TechNova Soluções",
-      "address": "Av. Olívia Flores, 1500 - Vitória da Conquista, BA",
-      "phone": "+55 77 3421-8922",
-      "website": "https://www.technova.com.br",
-      "image": "images/tech-nova-solutions.webp",
-      "membershipLevel": 3,
-      "founded": 2010,
-      "industry": "Technology Solutions"
-    },
-    {
-      "name": "Café Brasil Gourmet",
-      "address": "Rua da Granja, 350 - Vitória da Conquista, BA",
-      "phone": "+55 77 98888-7777",
-      "website": "https://www.cafebrasilgourmet.com.br",
-      "image": "images/cafe-brasil-gourmet.jpg",
-      "membershipLevel": 2,
-      "founded": 2015,
-      "industry": "Food & Beverage"
-    },
-    {
-      "name": "Verde Energia Sustentável",
-      "address": "Rod. BA-263, Km 10 - Vitória da Conquista, BA",
-      "phone": "+55 77 3422-4455",
-      "website": "https://www.verdeenergia.com.br",
-      "image": "images/verde-energia.webp",
-      "membershipLevel": 1,
-      "founded": 2008,
-      "industry": "Renewable Energy"
-    },
-    {
-      "name": "Saúde+ Planos",
-      "address": "Av. Rosa Cruz, 400 - Vitória da Conquista, BA",
-      "phone": "+55 77 3555-1234",
-      "website": "https://www.saudemaisplanos.com.br",
-      "image": "images/saude-planos.jpg",
-      "membershipLevel": 3,
-      "founded": 2001,
-      "industry": "Healthcare & Insurance"
-    },
-    {
-      "name": "ConstruMax Engenharia",
-      "address": "Av. Juracy Magalhães, 1250 - Vitória da Conquista, BA",
-      "phone": "+55 77 3255-6688",
-      "website": "https://www.construmaxengenharia.com.br",
-      "image": "images/construmax.jpg",
-      "membershipLevel": 2,
-      "founded": 1999,
-      "industry": "Construction & Engineering"
-    },
-    {
-      "name": "Moda Brasil Roupas",
-      "address": "Rua Frei Egídio, 950 - Vitória da Conquista, BA",
-      "phone": "+55 77 3030-2525",
-      "website": "https://www.modabrasilroupas.com.br",
-      "image": "images/moda-brasil.jpg",
-      "membershipLevel": 1,
-      "founded": 2012,
-      "industry": "Fashion & Apparel"
-    },
-    {
-      "name": "AgroForte Produtos",
-      "address": "Estrada do Bem Querer, 321 - Vitória da Conquista, BA",
-      "phone": "+55 77 3388-9966",
-      "website": "https://www.agroforteprodutos.com.br",
-      "image": "images/agro.webp",
-      "membershipLevel": 3,
-      "founded": 2005,
-      "industry": "Agriculture & Farming"
-    }
-  ]
-  
+  {
+    "name": "TechNova Soluções",
+    "address": "Av. Olívia Flores, 1500 - Vitória da Conquista, BA",
+    "phone": "+55 77 3421-8922",
+    "website": "https://www.technova.com.br",
+    "image": "images/tech-nova-solutions.webp",
+    "membershipLevel": 3,
+    "founded": 2010,
+    "industry": "Technology Solutions"
+  },
+  {
+    "name": "Café Brasil Gourmet",
+    "address": "Rua da Granja, 350 - Vitória da Conquista, BA",
+    "phone": "+55 77 98888-7777",
+    "website": "https://www.cafebrasilgourmet.com.br",
+    "image": "images/cafe-brasil-gourmet.jpg",
+    "membershipLevel": 2,
+    "founded": 2015,
+    "industry": "Food & Beverage"
+  },
+  {
+    "name": "Verde Energia Sustentável",
+    "address": "Rod. BA-263, Km 10 - Vitória da Conquista, BA",
+    "phone": "+55 77 3422-4455",
+    "website": "https://www.verdeenergia.com.br",
+    "image": "images/verde-energia.webp",
+    "membershipLevel": 1,
+    "founded": 2008,
+    "industry": "Renewable Energy"
+  },
+  {
+    "name": "Saúde+ Planos",
+    "address": "Av. Rosa Cruz, 400 - Vitória da Conquista, BA",
+    "phone": "+55 77 3555-1234",
+    "website": "https://www.saudemaisplanos.com.br",
+    "image": "images/saude-planos.jpg",
+    "membershipLevel": 3,
+    "founded": 2001,
+    "industry": "Healthcare & Insurance"
+  },
+  {
+    "name": "ConstruMax Engenharia",
+    "address": "Av. Juracy Magalhães, 1250 - Vitória da Conquista, BA",
+    "phone": "+55 77 3255-6688",
+    "website": "https://www.construmaxengenharia.com.br",
+    "image": "images/construmax.jpg",
+    "membershipLevel": 2,
+    "founded": 1999,
+    "industry": "Construction & Engineering"
+  },
+  {
+    "name": "Moda Brasil Roupas",
+    "address": "Rua Frei Egídio, 950 - Vitória da Conquista, BA",
+    "phone": "+55 77 3030-2525",
+    "website": "https://www.modabrasilroupas.com.br",
+    "image": "images/moda-brasil.jpg",
+    "membershipLevel": 1,
+    "founded": 2012,
+    "industry": "Fashion & Apparel"
+  },
+  {
+    "name": "AgroForte Produtos",
+    "address": "Estrada do Bem Querer, 321 - Vitória da Conquista, BA",
+    "phone": "+55 77 3388-9966",
+    "website": "https://www.agroforteprodutos.com.br",
+    "image": "images/agro.webp",
+    "membershipLevel": 3,
+    "founded": 2005,
+    "industry": "Agriculture & Farming"
+  }
+]

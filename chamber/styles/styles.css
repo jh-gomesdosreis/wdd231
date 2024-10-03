@@ -33,7 +33,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
     align-items: center;
     text-decoration: none;
     list-style-type: none;
@@ -69,13 +69,36 @@ nav ul li a:hover {
 .hero-section {
     width: 100%;
     min-height: 600px;
-    background-image: url('../images/vitoria-da-conquista-2.webp');
     background-size: cover;
     background-position: bottom;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.directory-hero {
+    background-image: url('../images/vitoria-da-conquista-2.webp');
+}
+
+.landing-page-hero {
+    background-image: url('../images/hero-landing-page.webp');
+}
+
+#landing-page-cta {
+    align-self:self-end;
+    margin: 0 5rem 0 0;
+    background-color: #252162;
+    z-index: 999;
+    font-size: 1.5rem;
+    color:white;
+    padding:2rem;
+}
+
+#landing-page-cta:hover {
+    transform: translate(5px, 5px);
+    -webkit-transform: translate(5px, 5px);
 }
 
 .hero-section::before {
@@ -97,6 +120,14 @@ nav ul li a:hover {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
+#menu {
+    padding-right: 4rem;
+}
+
+#menu .active {   
+    color: yellow;
+}
+
 /*Body Section Code*/
 .main-section{
     padding:2rem;
@@ -116,6 +147,20 @@ nav ul li a:hover {
     padding:1rem;
 }
 
+#forecast ul {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.card, #forecast li {
+    border: 1px solid black;
+    background-color: #F6F0DA;
+    border-radius: 10px;
+    text-align: center;
+    list-style-type: none;
+    max-width: 400px;
+}
 
 #company-cards.grid {
     display: grid;
@@ -127,16 +172,44 @@ nav ul li a:hover {
     display: block;
 }
 
-.member-card {
+.member-card, .spotlight {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
 }
 
-.member-card img {
+.member-card img, .spotlight img {
     max-width: 100px;
     height: auto;
+}
+
+#weather-section {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+#weather-section #forecast h2 {
+    text-align: center;
+}
+
+.main-card {
+    display:flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 75%;
+}
+
+.company-spotlights-section {
+    grid-column:1/3;
+}
+
+#company-spotlights{
+    display:grid;
+    grid-template-columns: auto auto auto;
 }
 
 @media (max-width: 768px) {

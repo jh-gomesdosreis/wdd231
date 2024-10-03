@@ -7,17 +7,19 @@ hamburgerElement.addEventListener('click', () => {
 });
 
 const lastModifiedDate = new Date(document.lastModified);
-
 const formattedDate = lastModifiedDate.toLocaleString();
-
 document.getElementById('last-updated').textContent = formattedDate;
+
+// Populate the current year in the span with id 'year'
+const currentYear = new Date().getFullYear();
+document.getElementById('year').textContent = currentYear;
 
 document.addEventListener('DOMContentLoaded', () => {
     const companyCardsDiv = document.getElementById('company-cards');
     const viewGridButton = document.getElementById('view-grid');
     const viewListButton = document.getElementById('view-list');
     let membersData = [];
-
+    
     // Fetch members data
     async function fetchMembers() {
         try {
