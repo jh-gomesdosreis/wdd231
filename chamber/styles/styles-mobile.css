@@ -18,6 +18,16 @@
     #hamburger-menu.open::before {
         content: "X";
     }
+    #weather-section {
+        display:block;
+    }
+    .main-card {
+        display:flex;
+        align-items: center;
+    }
+    #company-spotlights {
+        display: block;
+    }
     footer {
         display:block;
         align-items: center;
