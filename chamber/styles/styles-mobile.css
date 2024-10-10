@@ -35,4 +35,7 @@
     .social-icons img {
         max-width: 50px;
     }
+    #join-main-section {
+        display:block;
+    }
 }

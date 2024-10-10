@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Reis">
+    <meta name="description" content="WDD231 - Week 3">
+    <meta property="og:title" content="WDD231 W03 Assignment">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/vitoria-da-conquista-2.webp">
+    <meta property="og:url" content="https://jh-gomesdosreis.github.io/wdd231/chambers/directory.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:description" content="Vitoria da Conquista's Chamber of Commerce">
+    <meta name="twitter:image:alt" content="Vitoria da Conquista's Chamber of Commerce">
+    <title>Join Us - Chamber of Commerce</title>
+    <link rel="icon" href="images/flag.ico">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-mobile.css">
+    <script src="scripts/modal.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="directory.html"><img class="logo" alt="Logo" src="images/flag.png"></a>
+            <button id="hamburger-menu" aria-label="Menu"></button>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a class="active" href="join.html">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section join-hero">
+            <h1 class="hero-title">Join Us</h1>
+        </section>
+        <section class="main-section" id="join-main-section">
+            <div class="form-container">
+                <form action="thankyou.html" method="get">
+                    <h2>Interested in joining us? Fill the form below:</h2>
+                    <div class="label-container">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" title="Applicant's First Name" required autocomplete="given-name">
+                    </div>
+                    <div class="label-container">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" title="Applicant's Last Name" required autocomplete="family-name">
+                    </div>
+                    <div class="label-container">
+                        <label for="org-title">Organizational Title</label>
+                        <input type="text" id="org-title" name="org-title" title="Applicant's Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}">
+                    </div>
+                    <div class="label-container">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" title="Email Address" placeholder="example@email.com" required autocomplete="email">
+                    </div>
+                    <div class="label-container">
+                        <label for="mobile-phone">Mobile Phone</label>
+                        <input type="tel" id="mobile-phone" name="mobile-phone" title="Mobile Phone Number" required autocomplete="tel">
+                    </div>
+                    <div class="label-container">
+                        <label for="org-name">Organization Name</label>
+                        <input type="text" id="org-name" name="org-name" title="Business/Organization Name" required autocomplete="organization">
+                    </div>
+                    <div class="label-container">
+                        <label for="membership-level">Membership Level</label>
+                        <select id="membership-level" name="membership-level" required>
+                            <option value="">Select a membership level</option>
+                            <option value="NP">NP Membership (Non-Profit)</option>
+                            <option value="Bronze">Bronze Membership</option>
+                            <option value="Silver">Silver Membership</option>
+                            <option value="Gold">Gold Membership</option>
+                        </select>
+                    </div>
+                    <div class="label-container">
+                        <label for="org-description">Organization Description</label>
+                        <textarea id="org-description" name="org-description" title="Business/Organization Description"></textarea>
+                    </div>
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+                    <input type="submit" value="Join us now!">
+                </form>
+            </div>
+            <div class="membership-card-section">
+                <h1>Membership Levels</h1>
+                <div class="membership-card">
+                    <h3>NP Level</h3>
+                    <button class="open-button">Learn More</button>
+                    <dialog class="dialog-box">
+                        <div class="dialog-title">
+                            <h2>NP Membership</h2>
+                            <button class="close-button">X</button>
+                        </div>
+                        <p>Non-profit organizations enjoy free membership benefits.</p>
+                    </dialog>
+                </div>
+                <div class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <button class="open-button">Learn More</button>
+                    <dialog class="dialog-box">
+                        <div class="dialog-title">
+                            <h2>Bronze Membership</h2>
+                            <button class="close-button">X</button>
+                        </div>
+                        <p>Bronze membership includes access to basic events and training.</p>
+                    </dialog>
+                </div>
+                <div class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <button class="open-button">Learn More</button>
+                    <dialog class="dialog-box">
+                        <div class="dialog-title">
+                            <h2>Silver Membership</h2>
+                            <button class="close-button">X</button>
+                        </div> 
+                        <p>Silver members receive event discounts and advertising opportunities.</p>
+                    </dialog>
+                </div>
+                <div class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <button class="open-button">Learn More</button>
+                    <dialog class="dialog-box">
+                        <div class="dialog-title">
+                            <h2>Gold Membership</h2>
+                            <button class="close-button">X</button>
+                        </div>
+                        <p>Gold members get premium access to events, discounts, and promotions.</p>
+                    </dialog>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="left-footer-section">
+            <p>Vitoria da Conquista Chamber of Commerce</p>
+            <p>464a Av. Ipanema</p>
+            <p>Bahia, Brazil</p>
+            <a href="mailto:jh_gomesdosreis@outlook.com">jh_gomesdosreis@outlook.com</a>
+            <p>+55 (77) 99988-9722</p>
+        </section>
+        <section class="social-icons">
+            <a href="https://facebook.com"><img alt="Facebook" src="images/facebook.webp"></a>
+            <a href="https://instagram.com"><img alt="Instagram" src="images/instagram.webp"></a>
+            <a href="https://x.com"><img alt="X" src="images/twitter.webp"></a>
+        </section>
+        <section class="right-footer-section">
+            <p>WDD 231 - Week 2</p>
+            <p>João Reis</p>
+            <p><span id="year"></span> &#169; Vitoria da Conquista Chamber of Commerce</p>
+            <p>Last Updated At: <span id="last-updated"></span></p>
+        </section>
+    </footer>
+</body>
+</html>

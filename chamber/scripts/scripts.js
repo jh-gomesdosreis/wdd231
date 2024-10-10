@@ -10,7 +10,7 @@ const lastModifiedDate = new Date(document.lastModified);
 const formattedDate = lastModifiedDate.toLocaleString();
 document.getElementById('last-updated').textContent = formattedDate;
 
-// Populate the current year in the span with id 'year'
+
 const currentYear = new Date().getFullYear();
 document.getElementById('year').textContent = currentYear;
 
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const viewListButton = document.getElementById('view-list');
     let membersData = [];
     
-    // Fetch members data
+
     async function fetchMembers() {
         try {
             const response = await fetch('data/members.json');
@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Render members function
     function renderMembers(viewType = 'grid') {
         companyCardsDiv.innerHTML = '';
         companyCardsDiv.className = '';
@@ -59,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Event listeners for view toggles
     viewGridButton.addEventListener('click', () => {
         renderMembers('grid');
     });
@@ -68,6 +66,5 @@ document.addEventListener('DOMContentLoaded', () => {
         renderMembers('list');
     });
 
-    // Initial fetch
     fetchMembers();
 });
