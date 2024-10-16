@@ -68,3 +68,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetchMembers();
 });
+
+//calendar widget
+console.log("jQuery version:", $.fn.jquery);
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        events: [
+            {
+                title: 'Meeting with team',
+                start: '2024-10-15'
+            },
+            {
+                title: 'Birthday party',
+                start: '2024-10-20'
+            },
+            {
+                title: 'Conference',
+                start: '2024-10-22'
+            }
+        ]
+    });
+});

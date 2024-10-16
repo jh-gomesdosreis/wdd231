@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="author" content="João Reis">
-    <meta name="description" content="WDD231 - Week 2">
-    <meta property="og:title" content="WDD231 W02 Assignment">
+    <meta name="description" content="WDD231 - Week 3">
+    <meta property="og:title" content="WDD231 W03 Assignment">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/vitoria-da-conquista-2.webp">
-    <meta property="og:url" content="https://jh-gomesdosreis.github.io/wdd231/chambers/directory.html">
+    <meta property="og:image" content="https://jh-gomesdosreis.github.io/wdd231/chamber/images/vitoria-da-conquista-2.webp">
+    <meta property="og:url" content="https://jh-gomesdosreis.github.io/wdd231/chamber/directory.html">
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:description" content="Vitoria da Conquista's Chamber of Commerce">
     <meta name="twitter:image:alt" content="Vitoria da Conquista's Chamber of Commerce">
-    <title>WDD231 - Week 2 Activity</title>
+    <title>Discover - Chamber of Commerce</title>
     <link rel="icon" href="images/flag.ico">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/styles-mobile.css">
+    <script src="scripts/modal.js" defer></script>
     <script src="scripts/scripts.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" rel="stylesheet"/>
 </head>
 <body>
     <header>
@@ -27,27 +31,40 @@
             <button id="hamburger-menu" aria-label="Menu"></button>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li ><a class="active" href="directory.html">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a class="active" href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="hero-section directory-hero">
-            <h1 class="hero-title">Directory</h1>
+        <section class="hero-section discover-hero">
+            <h1 class="hero-title">Discover</h1>
         </section>
-        <section class="main-section">
-            <div class=main-title>
-                <h1>Our Partners</h1>
-                <div>
-                    <button id="view-grid" aria-label="Grid View">Grid View</button>
-                    <button id="view-list" aria-label="List View">List View</button>
-                </div>
+        <section class="discover-main-section">
+            <div class="text-card-1">
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor amet</p>
             </div>
-            <div id="company-cards"></div>
+            <div class="text-card-2">
+                <h3>Heading</h3>
+                <img src="images/moda-brasil.jpg" alt="My img">
+                <p>Lorem ipsum dolor amet</p>
+            </div>
+            <div class="calendar-card">
+                <h3>Upcoming Events</h3>
+                <div id="#calendar"></div>
+            </div>
+            <div class="images-card">
+                <h3>Image Gallery</h3>
+                <img src="images/moda-brasil.jpg" alt="My img">
+                <img src="images/moda-brasil.jpg" alt="My img">
+                <img src="images/moda-brasil.jpg" alt="My img">
+            </div>
         </section>
     </main>
+
     <footer>
         <section class="left-footer-section">
             <p>Vitoria da Conquista Chamber of Commerce</p>

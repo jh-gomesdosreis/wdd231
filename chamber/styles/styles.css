@@ -89,6 +89,10 @@ nav ul li a:hover {
     background-image: url('../images/join-us-banner.webp');
 }
 
+.discover-hero {
+    background-image: url('../images/discover.webp');
+}
+
 #landing-page-cta {
     align-self:self-end;
     margin: 0 5rem 0 0;
@@ -300,6 +304,17 @@ form h2 {
     width: 100%;
     padding: 8px;
     font-size: 1em;
+  }
+
+  .discover-main-section > div {
+    border:1px black solid;
+    padding: 1rem;
+    margin:2rem;
+    max-height: 400px;
+  }
+
+  .discover-main-section img {
+    max-width: 200px;
   }
 
 /*Animations*/
