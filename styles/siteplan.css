@@ -5,6 +5,9 @@
     main {
         display:block !important;
     }
+    :root {
+        text-align: center;
+    }
 }
 
 p {
@@ -40,17 +43,11 @@ main div h1 {
 main {
     padding:2rem;
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
 }
 
 img {
-    width: 100%;
     height: auto;
-}
-
-.colors {
-    display:flex;
-    justify-content:space-between;
 }
 
 .colors {
