@@ -1,0 +1,122 @@
+[
+  {
+      "name": "Sarah Thompson",
+      "bio": "Sarah has over 10 years of experience as a project manager, focusing on tech-driven solutions for large-scale events. She enjoys collaborating with cross-functional teams and ensures projects are delivered on time and within budget.",
+      "position": "Project Manager",
+      "profile_picture": "../images/sarah-thompson.webp",
+      "location": "Austin, TX",
+      "hobby": ["Photography", "Traveling"]
+  },
+  {
+      "name": "David Martinez",
+      "bio": "David is a software developer with a passion for creating automated systems for events and building innovative mobile applications. His technical expertise spans a variety of programming languages, and he loves solving complex problems.",
+      "position": "Lead Developer",
+      "profile_picture": "../images/david-martinez.webp",
+      "location": "San Francisco, CA",
+      "hobby": ["Rock climbing", "Coding challenges"]
+  },
+  {
+      "name": "Emily Zhang",
+      "bio": "Emily is a creative director known for her unique approach to branding and creating immersive event experiences. She works closely with clients to ensure their vision is brought to life in a memorable and engaging way.",
+      "position": "Creative Director",
+      "profile_picture": "../images/emily-zhang.webp",
+      "location": "New York, NY",
+      "hobby": ["Urban sketching", "Gallery hopping"]
+  },
+  {
+      "name": "Lucas Silva",
+      "bio": "Lucas leads the customer support team, helping clients navigate and troubleshoot event technology with ease. His problem-solving skills and passion for tech have made him an invaluable resource for event troubleshooting.",
+      "position": "Customer Support Lead",
+      "profile_picture": "../images/lucas-silva.webp",
+      "location": "Vitória da Conquista, BA",
+      "hobby": ["Playing chess", "Hiking"]
+  },
+  {
+      "name": "Priya Patel",
+      "bio": "Priya coordinates logistics for events, ensuring all elements run smoothly from start to finish. She is highly organized and has extensive experience in managing logistics for international and large-scale events.",
+      "position": "Logistics Coordinator",
+      "profile_picture": "../images/priya-patel.webp",
+      "location": "Chicago, IL",
+      "hobby": ["Baking", "Yoga"]
+  },
+  {
+      "name": "Jake Anderson",
+      "bio": "Jake analyzes data to improve event experiences, ensuring better outcomes for all stakeholders. He is skilled in interpreting data patterns and helping teams optimize processes to deliver more efficient events.",
+      "position": "Data Analyst",
+      "profile_picture": "../images/jake-anderson.webp",
+      "location": "Seattle, WA",
+      "hobby": ["Mountain biking", "Data visualization projects"]
+  },
+  {
+      "name": "Sophia Gomez",
+      "bio": "Sophia is a marketing strategist specializing in digital campaigns. She has a strong focus on event technology solutions, working on branding and messaging that resonates with audiences and drives engagement.",
+      "position": "Marketing Specialist",
+      "profile_picture": "../images/sophia-gomez.webp",
+      "location": "Miami, FL",
+      "hobby": ["Salsa dancing", "Travel blogging"]
+  },
+  {
+      "name": "Nathan Lee",
+      "bio": "Nathan is an IT support technician who ensures seamless event software and hardware integration. With years of experience, he has developed an ability to quickly solve technical issues, providing smooth event operations.",
+      "position": "IT Support Specialist",
+      "profile_picture": "../images/nathan-lee.webp",
+      "location": "Denver, CO",
+      "hobby": ["Board gaming", "3D printing"]
+  },
+  {
+      "name": "Isabella Moretti",
+      "bio": "Isabella brings a fresh perspective to event planning as a junior event coordinator. She specializes in creative event solutions that appeal to modern audiences, ensuring every event stands out and runs without a hitch.",
+      "position": "Junior Event Coordinator",
+      "profile_picture": "../images/isabella-moretti.webp",
+      "location": "Los Angeles, CA",
+      "hobby": ["Painting", "Cycling"]
+  },
+  {
+      "name": "Mark Evans",
+      "bio": "Mark is an experienced audiovisual technician who ensures the flawless setup and operation of audio and video equipment for events. His attention to detail guarantees every technical aspect runs smoothly.",
+      "position": "AV Technician",
+      "profile_picture": "../images/mark-evans.webp",
+      "location": "London, UK",
+      "hobby": ["Guitar playing", "Drone photography"]
+  },
+  {
+      "name": "Laura Kim",
+      "bio": "Laura is an event planner with a focus on tech conferences and corporate events. She has a keen eye for detail and excels at making sure every event element fits together perfectly to create a cohesive experience.",
+      "position": "Event Planner",
+      "profile_picture": "../images/laura-kim.webp",
+      "location": "Seoul, South Korea",
+      "hobby": ["Knitting", "Cooking"]
+  },
+  {
+      "name": "Alex Johnson",
+      "bio": "Alex specializes in event security, overseeing the safety and logistics of high-profile events. With years of experience in the security field, he ensures that every event runs smoothly and without incident.",
+      "position": "Event Security Manager",
+      "profile_picture": "../images/alex-johnson.webp",
+      "location": "Toronto, Canada",
+      "hobby": ["Camping", "Boxing"]
+  },
+  {
+      "name": "Chloe Nguyen",
+      "bio": "Chloe is an expert in event registration systems and manages attendee data efficiently. Her focus on user experience has significantly improved the registration process for various large-scale events.",
+      "position": "Registration Manager",
+      "profile_picture": "../images/chloe-nguyen.webp",
+      "location": "Sydney, Australia",
+      "hobby": ["Surfing", "Graphic design"]
+  },
+  {
+      "name": "Jessica Wright",
+      "bio": "Jessica is a lighting designer specializing in creating atmospheric lighting for events. Her work has been featured in both large corporate settings and intimate event spaces, making each event visually spectacular.",
+      "position": "Lighting Designer",
+      "profile_picture": "../images/jessica-wright.webp",
+      "location": "Berlin, Germany",
+      "hobby": ["Photography", "Scuba diving"]
+  },
+  {
+      "name": "Maria Hernandez",
+      "bio": "Maria is a catering manager with extensive experience in organizing food and beverage services for large events. Her focus is on delivering high-quality and diverse menus to meet the needs of every attendee.",
+      "position": "Catering Manager",
+      "profile_picture": "../images/maria-hernandez.webp",
+      "location": "Madrid, Spain",
+      "hobby": ["Cooking", "Traveling"]
+  }
+]

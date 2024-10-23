@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - TKT</title>
+    <link rel="icon" href="images/favicon-final-project.ico">
+    <meta name="description" content="Final Project - WDD231" />
+    <meta name="author" content="João Reis" />
+    <link href="styles/final-project-large.css" rel="stylesheet" />
+    <link href="styles/final-project.css" rel="stylesheet" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/final-project.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="mobile-wrap">
+          <a href="final-project.html"><img src="images/two-kings.png"></a>
+
+        </div>
+        <nav>
+          <ul class="nav-wrap">
+            <a id="menu" href="#"></a>
+            <li><a href="final-project.html" id="home" class="active">Home</a></li>
+            <li><a href="company.html" id="company">The Company</a></li>
+            <li><a href="contact-us.html" id="contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="banner-area">
+        <div class="container">
+          <h1>Technology solutions </br> for events</h1>
+          <p>Making your event technology perfect doesn’t </br> have to be stressful.</p>
+        </div>
+      </div>
+      <div class="content-area-1">
+        <div class="container">
+          <h1>We do more</h1>
+          <p>Platform agnostic in our approach, Two Kings Technology listens to you and your needs to find and implement the best solutions for your event.</p>
+        </div>
+      </div>
+      <div class="content-area-2">
+        <div class="container">
+          <p>We use the best event technologies available on the market</p>
+          <div class="technologies">
+            <img alt="Swoogo" src="images/swoogo.webp" loading="lazy">
+            <img alt="Rainfocus" src="images/rainfocus.webp" loading="lazy">
+            <img alt="Slido" src="images/slido.webp" loading="lazy">
+            <img alt="Zoom" src="images/zoom.webp" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="schedule-demo-area">
+        <div class="container">
+          <p>Interested in Scheduling a demo?</p>
+          <button class="button" onclick="redirectToDemo()"">Request a Demo</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&#169; <span id="currentyear"></span>, João Reis - Bahia, Brazil</p>
+        <p id="lastModified"></p>
+      </div>
+    </footer>
+  </body>
+</html>

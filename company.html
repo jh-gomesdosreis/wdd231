@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Company - TKT</title>
+    <link rel="icon" href="images/favicon-final-project.ico">
+    <meta name="description" content="Final Project" />
+    <meta name="author" content="João Reis" />
+    <link href="styles/final-project-large.css" rel="stylesheet" />
+    <link href="styles/final-project.css" rel="stylesheet" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/final-project.js" defer></script>
+    <script src="scripts/employee-popup.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="mobile-wrap">
+          <a href="final-project.html"><img src="images/two-kings.png" alt="Logo"></a>
+        </div>
+        <nav>
+          <ul class="nav-wrap">
+            <a id="menu" href="#"></a>
+            <li><a href="final-project.html" id="home">Home</a></li>
+            <li><a href="company.html" id="company" class="active">The Company</a></li>
+            <li><a href="contact-us.html" id="contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="content-area-1">
+        <div class="container">
+          <h1>Who we are</h1>
+          <p>Two Kings Technology emerged from a client's need. Today, we have grown and are now more than 50 around the world.</p>
+          <p class="small">Based in Vitoria da Conquista, Bahia, Brazil, Two Kings Technology quickly became one of the market leaders in event technology during the pandemic, considering the market's switch to remote events only.</p>
+          <h1>Our Leadership Team</h1>
+          <div class="person-card">
+            <figure>
+              <img src="images/my-pic.webp" loading="lazy" alt="João Reis">
+              <figcaption> João Reis, CEO</figcaption>
+            </figure>
+            <p>João Reis is our CEO and an avid technology affictionate. He loves making sure everything goes well and the team is set up for success.</p>
+          </div>
+          <div class="person-card">
+            <figure>
+              <img src="images/brunna.webp" loading="lazy" alt="Brunna Reis">
+              <figcaption> Brunna Reis, CSO</figcaption>
+            </figure>
+            <p>Brunna is a very experienced saleswoman and loves what she does. She always finds a way to make things work based on your budget.</p>
+          </div>
+          <div class="person-card">
+            <figure>
+              <img src="images/daniel.webp" loading="lazy" alt="Daniel Silva">
+              <figcaption> Daniel Silva, CMO</figcaption>
+            </figure>
+            <p>Daniel is our team manager and has vast experience with event technology. He's certainly someone you can always count on!</p>
+          </div>
+          <button id="open-dialog-button">Meet the rest of our team!</button>
+        </div>
+      </div>
+    </main>
+    
+    <dialog id="employee-popup">
+      <div class="dialog-header">
+        <h1>Our Team</h1>
+        <button id="close-dialog-button">X</button>
+      </div>
+      <div id="employee-cards"></div>
+    </dialog>
+    <dialog id="employee-details-dialog">
+      <div class="dialog-header">
+        <h1 id="employee-name"></h1>
+        <button id="close-details-dialog-button">X</button>
+      </div>
+      <div class="employee-data">
+        <img id="employee-picture" alt="Employee picture" style="max-width: 100%; height: auto;"/>
+        <div>
+          <p><strong>Location:</strong> <span id="employee-location"></span></p>
+          <p><strong>Bio:</strong> <span id="employee-bio"></span></p>
+          <p><strong>Hobby:</strong> <span id="employee-hobby"></span></p>
+        </div>
+      </div>
+    </dialog>
+    <footer>
+      <div class="container">
+        <p>&#169; <span id="currentyear"></span>, João Reis - Bahia, Brazil</p>
+        <p id="lastModified"></p>
+      </div>
+    </footer>
+  </body>
+</html>

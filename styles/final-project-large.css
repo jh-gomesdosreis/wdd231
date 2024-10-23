@@ -1,0 +1,279 @@
+:root {
+    --max-width: 1080px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #4b6162;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    background-color: transparent; 
+    padding: 0 1rem; 
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+header {
+    background-color: #4b6162;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 150px;
+    padding: 1rem 1rem;
+}
+
+nav {
+    margin: 0 5rem 0 auto;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: white;
+}
+
+main div {
+    padding: 1rem;
+}
+
+.banner-area {
+    background: linear-gradient(to right, #82AEB1, #93C6D6);
+    width: 100%;
+}
+
+.banner-area .container {
+    padding: 2rem 1rem;
+}
+
+.banner-area h1 {
+    font-size: 7rem;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(37, 37, 41), rgb(45, 45, 45));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.banner-area p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.content-area-1 {
+    border-bottom: 5px solid #9E8FB2;
+    background-color: #fff;
+}
+
+.content-area-1 .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.content-area-1 .container > :nth-child(n+3) {
+    grid-column: 1 / -1;
+    display: block;
+    padding: 1rem 0;
+}
+
+.content-area-1 h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 3rem;
+}
+
+.content-area-1 p {
+    font-size: 2rem;
+}
+
+.content-area-2 p {
+    text-align: right;
+    font-size: 2rem;
+}
+
+.content-area-2 {
+    background-color: white;
+}
+
+.content-area-2 .container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+.technologies {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.technologies img {
+    max-height: 10rem;
+    max-width: 10rem;
+}
+
+nav a:hover {
+    color: #93C6D6;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.schedule-demo-area {
+    border: 5px solid #9E8FB2;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.schedule-demo-area .container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+footer {
+    background-color: #4b6162;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.button {
+    background-color: #4b6162;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.small {
+    font-size:1.5rem !important;
+}
+
+.active {
+    color:yellow;
+}
+
+fieldset {
+    padding:2rem;
+}
+
+form label {
+    display: block;
+    padding-bottom:1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width:100%;
+    min-height: 2rem;
+}
+
+input[type="submit"] {
+    background-color: #9E8FB2;
+    color:white;
+    min-height: 3rem;
+    margin-top: 2rem;
+}
+
+.person-card {
+    display:grid !important;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.person-card img {
+    max-height: 200px;
+}
+
+dialog {
+    width: 50%;
+    height: 75%;
+}
+
+.form input:required,
+select[name="product-name"]:required {
+    border-right: solid 8px red;
+}
+
+.form input:required:valid,
+select[name="product-name"]:required:valid {
+    border-right: solid 8px green;
+}
+
+#employee-cards {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:2rem;
+}
+
+.employee-card {
+    border: 1px black solid;
+    padding:1rem;
+    border-radius: 30px;
+}
+
+.employee-card img {
+    border-radius: 30px;
+}
+
+.employee-data {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap:2rem;
+}
+
+.dialog-header {
+    display:grid;
+    grid-template-columns: auto 30px;
+}
+
+.dialog-header button {
+    font-size: 30px;
+    background-color: transparent;
+    border:none;
+    text-align: right;
+    cursor:pointer;
+}
+
+.dialog-header h1 {
+    font-size: 50px;
+    font-weight: bold;
+}

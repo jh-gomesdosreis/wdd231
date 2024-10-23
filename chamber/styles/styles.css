@@ -335,6 +335,8 @@ form h2 {
     height: auto;
 }
 
+
+
 .images-card {
     grid-column: 2 / 3;
     grid-row: 1/3;

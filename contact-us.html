@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - TKT</title>
+    <link rel="icon" href="images/favicon-final-project.ico">
+    <meta name="description" content="Week 2 Activity - Temples" />
+    <meta name="author" content="João Reis" />
+    <link href="styles/final-project-large.css" rel="stylesheet" />
+    <link href="styles/final-project.css" rel="stylesheet" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="mobile-wrap">
+          <a href="final-project.html"><img src="images/two-kings.png"></a>
+        </div>
+        <nav>
+          <ul class="nav-wrap">
+            <a id="menu" href="#"></a>
+            <li><a href="final-project.html" id="home">Home</a></li>
+            <li><a href="company.html" id="company">The Company</a></li>
+            <li><a href="contact-us.html" id="contact-us" class="active">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <div class="content-area-1">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>We're looking forward to working in your project.</p>
+                <form method="get" action="complete.html" class="form">
+                    <fieldset>
+                        <label>First Name* <input type="text" name="fname" required></label>
+                        <label>Last Name* <input type="text" name="lname" required></label>
+                        <label>Email Address* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label>Phone Number <input type="tel" name="phone" placeholder="1235551234"></label>
+                        <div>Where did you hear about us?</div>
+                        <label><input type="radio" name="font" value="facebook">Facebook</label>
+                        <label><input type="radio" name="font" value="linkedin">Linkedin</label>
+                        <label><input type="radio" name="font" value="recommendation">Friend/Colleague Recommendation</label>
+                        <label><input type="radio" name="font" value="other">Other</label>
+                    </fieldset>
+                    <input type="submit" value="Schedule your Demo">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&#169; <span id="currentyear"></span>, João Reis - Bahia, Brazil</p>
+        <p id="lastModified"></p>
+      </div>
+    </footer>
+  </body>
+</html>
